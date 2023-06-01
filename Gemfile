@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 
 gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-theme-clean-blog"
+gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
 end
 
+gem "faraday-retry"
 gem "webrick"
